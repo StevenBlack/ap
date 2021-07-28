@@ -1,4 +1,4 @@
-Here are the unique `class` items:
+Here are the unique `class` items within file `annotationsvideo0.txt`.
 
 ```
  'Biker'
@@ -34,15 +34,23 @@ So within the `for` loop, which fires for every line, you could say this:
 ```
 switch split{10}
   case 'Biker'
-    % code for Biker goes here
+    % code for Biker class goes here
 
   case 'Pedestrian'
-    % code for Pedestrian goes here
+    % code for Pedestrian class goes here
+
   case 'Skater'
-    % etc
+    % code for Skater class goes here
+
   case 'Cart'
+    % code for Card class goes here
+
   case 'Car'
+    % code for Car class goes here
+
   case 'Bus'
+    % code for Bus class goes here
+
   otherwise
     % code here executes if you get something else in split(10)
     % no code at all is probably OK here
